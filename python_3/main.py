@@ -1,3 +1,7 @@
+f = open('test.txt', 'r')
+data = f.read()
+f.close()
+
 from calculator_modules.operations.basic import add, subtract, multiply, divide
 from calculator_modules.operations.advanced import power, square_root
 from calculator_modules.operations.trigonometry import sin, cos
@@ -32,3 +36,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
